@@ -2,6 +2,10 @@
 
 ```
 docker build -t elasticsearch-ingest:7.2.0 .
+```
+
+# Run container
+```
 docker run --restart always -d --name elasticsearch -p 9200:9200 -e "discovery.type=single-node" elasticsearch-ingest:7.2.0
 ```
 
