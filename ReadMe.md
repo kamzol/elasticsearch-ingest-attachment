@@ -1,7 +1,7 @@
 # Build image
 
 ```
-docker build . -t elasticsearch-ingest:7.9.2 .
+docker build . -t elasticsearch-ingest:7.9.2
 ```
 
 # Run container
